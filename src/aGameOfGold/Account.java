@@ -14,8 +14,8 @@ public class Account {
 		return goldCoins;
 	}
 
-	public void setgoldCoins(int goldCoins) {
-		this.goldCoins = goldCoins;
+	public void addgoldCoins(int goldCoins) {
+		this.goldCoins += goldCoins;
 
 		if (this.goldCoins < 0) {
 			this.goldCoins = 0;			
