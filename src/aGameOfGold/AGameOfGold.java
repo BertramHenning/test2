@@ -9,7 +9,6 @@ import desktop_resources.GUI;
 public class AGameOfGold {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		player[] players = new player[2];
 
 		// Creates two Player objects in an array
